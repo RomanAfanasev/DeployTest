@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DeployTest/static/css/main.6f42b3fa.chunk.css",
+    "main.js": "/DeployTest/static/js/main.494da3da.chunk.js",
+    "main.js.map": "/DeployTest/static/js/main.494da3da.chunk.js.map",
+    "runtime-main.js": "/DeployTest/static/js/runtime-main.ccccefb4.js",
+    "runtime-main.js.map": "/DeployTest/static/js/runtime-main.ccccefb4.js.map",
+    "static/js/2.d2f28b14.chunk.js": "/DeployTest/static/js/2.d2f28b14.chunk.js",
+    "static/js/2.d2f28b14.chunk.js.map": "/DeployTest/static/js/2.d2f28b14.chunk.js.map",
+    "index.html": "/DeployTest/index.html",
+    "precache-manifest.9a0da80e09921686cfd4cc1d946e9465.js": "/DeployTest/precache-manifest.9a0da80e09921686cfd4cc1d946e9465.js",
+    "service-worker.js": "/DeployTest/service-worker.js",
+    "static/css/main.6f42b3fa.chunk.css.map": "/DeployTest/static/css/main.6f42b3fa.chunk.css.map",
+    "static/js/2.d2f28b14.chunk.js.LICENSE.txt": "/DeployTest/static/js/2.d2f28b14.chunk.js.LICENSE.txt",
+    "static/media/flytech6.svg": "/DeployTest/static/media/flytech6.f646ab65.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccccefb4.js",
+    "static/js/2.d2f28b14.chunk.js",
+    "static/css/main.6f42b3fa.chunk.css",
+    "static/js/main.494da3da.chunk.js"
+  ]
+}
