@@ -1,10 +1,14 @@
 import React from 'react';
-import { Header } from './components/Header';
+// import NewTemplate from './components/NewTemplate';
+import Template from './components/Template';
 
 function App() {  
-  return (
-    <Header />
+
+  return (    
+    // <MainGrid />
+    <Template />
   );
 }
 
 export default App;
+
