@@ -1,7 +1,12 @@
-import React from 'react';
-import logo from '../images/flytech6.svg';
+import React, { useState } from 'react';
+//import logo from '../images/flytech6.svg';
+import WorkModal from './for-new-template/WorkModal';
 
 export default function NewTemplate() {
+
+    //For hidden items
+    const [showResults, setShowResults] = React.useState(false)
+    const onClick = () => setShowResults(!showResults)
 
 
     return (
@@ -21,9 +26,17 @@ export default function NewTemplate() {
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#intro">Intro</a></li>
-                        <li><a href="#work">Work</a></li>
-                        <li><a href="#about">About</a></li>                       
+                        <li>
+                            <a href="#intro">
+                                Intro
+                            </a>
+                        </li>
+                        <li><a aria-controls="video-modal-intro"
+                            onClick={onClick} href="#work">
+                                Work
+                            </a>
+                        </li>
+                        <li><a href="#about">About</a></li>
                     </ul>
                 </nav>
             </header>
@@ -46,6 +59,7 @@ export default function NewTemplate() {
                     <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
                     <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
                 </article> */}
+                { showResults ? <WorkModal /> : null }
 
                 {/* About */}
                 {/* <article id="about">
