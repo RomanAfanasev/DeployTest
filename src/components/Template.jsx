@@ -2,16 +2,26 @@ import React, { useState } from 'react';
 //import logo from '../images/flytech6.svg';
 import WorkModal from './for-new-template/WorkModal';
 import ContactModal from './for-new-template/ContactModal';
+import AboutModal from './AboutModal';
 
 export default function NewTemplate() {
 
     //For hidden items
-    const [showResultsWork, setShowResultsWork] = React.useState(false)
-    const onClickWork = () => setShowResultsWork(!showResultsWork)
-
     const [showResultsContact, setShowResultsContact] = React.useState(false)
     const onClickContact = () => setShowResultsContact(!showResultsContact)
 
+    const [showResultsWork, setShowResultsWork] = React.useState(false)
+    const onClickWork = () => setShowResultsWork(!showResultsWork)
+
+    const [showResultsAbout, setShowResultsAbout] = React.useState(false)
+    const onClickAbout = () => setShowResultsAbout(!showResultsAbout)
+
+    const onClickMain = function(){
+        setShowResultsContact(false);
+        setShowResultsWork(false);
+        setShowResultsAbout(false);
+    }
+    
 
     return (
         // Wrapper
@@ -32,22 +42,22 @@ export default function NewTemplate() {
                     <ul>
                         <li>
                             <a 
-                                onClick={onClickContact} href="#contact">
+                                onClick={onClickContact} >
                                 Contact
                             </a>
                         </li>
                         <li><a 
-                            onClick={onClickWork} href="#work">
+                            onClick={onClickWork} >
                             Work
                         </a>
                         </li>
-                        <li><a href="#about">About</a></li>
+                        <li><a onClick={onClickAbout} >About</a></li>
                     </ul>
                 </nav>
             </header>
 
             {/* Main */}
-            <div id="main">
+            <div id="main" onClick={onClickMain}>
 
                 {/* Contact  */}                
                 {showResultsContact ? <ContactModal /> : null}
@@ -55,12 +65,8 @@ export default function NewTemplate() {
                 {/* Work  */}
                 {showResultsWork ? <WorkModal /> : null}
 
-                {/* About */}
-                {/* <article id="about">
-                    <h2 className="major">About</h2>
-                    <span className="image main"><img src="images/pic03.jpg" alt="" /></span>
-                    <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-                </article> */}
+                {/* About */}                
+                {showResultsAbout ? <AboutModal /> : null}
 
             </div>
 
