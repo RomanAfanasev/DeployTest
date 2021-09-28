@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/DeployTest/static/css/main.ee56a427.chunk.css",
-    "main.js": "/DeployTest/static/js/main.60aa62ff.chunk.js",
-    "main.js.map": "/DeployTest/static/js/main.60aa62ff.chunk.js.map",
-    "runtime-main.js": "/DeployTest/static/js/runtime-main.ccccefb4.js",
-    "runtime-main.js.map": "/DeployTest/static/js/runtime-main.ccccefb4.js.map",
-    "static/js/2.9904e97c.chunk.js": "/DeployTest/static/js/2.9904e97c.chunk.js",
-    "static/js/2.9904e97c.chunk.js.map": "/DeployTest/static/js/2.9904e97c.chunk.js.map",
-    "index.html": "/DeployTest/index.html",
-    "precache-manifest.ce0c846c3e93b41124462d734ad2abd3.js": "/DeployTest/precache-manifest.ce0c846c3e93b41124462d734ad2abd3.js",
-    "service-worker.js": "/DeployTest/service-worker.js",
-    "static/css/main.ee56a427.chunk.css.map": "/DeployTest/static/css/main.ee56a427.chunk.css.map",
-    "static/js/2.9904e97c.chunk.js.LICENSE.txt": "/DeployTest/static/js/2.9904e97c.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/DeployTest/static/media/flytech6.f646ab65.svg",
-    "static/media/ssp063.jpg": "/DeployTest/static/media/ssp063.c8f26904.jpg"
+    "main.css": "/static/css/main.98a0695b.chunk.css",
+    "main.js": "/static/js/main.a09c3333.chunk.js",
+    "main.js.map": "/static/js/main.a09c3333.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.36f98b07.js",
+    "runtime-main.js.map": "/static/js/runtime-main.36f98b07.js.map",
+    "static/js/2.9904e97c.chunk.js": "/static/js/2.9904e97c.chunk.js",
+    "static/js/2.9904e97c.chunk.js.map": "/static/js/2.9904e97c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dddfd8d90acb8fea55a331fd38ff74de.js": "/precache-manifest.dddfd8d90acb8fea55a331fd38ff74de.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.98a0695b.chunk.css.map": "/static/css/main.98a0695b.chunk.css.map",
+    "static/js/2.9904e97c.chunk.js.LICENSE.txt": "/static/js/2.9904e97c.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/static/media/flytech6.f646ab65.svg",
+    "static/media/ssp063.jpg": "/static/media/ssp063.c8f26904.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ccccefb4.js",
+    "static/js/runtime-main.36f98b07.js",
     "static/js/2.9904e97c.chunk.js",
-    "static/css/main.ee56a427.chunk.css",
-    "static/js/main.60aa62ff.chunk.js"
+    "static/css/main.98a0695b.chunk.css",
+    "static/js/main.a09c3333.chunk.js"
   ]
 }
