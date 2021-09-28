@@ -32,11 +32,11 @@ export default function NewTemplate() {
         setShowResultsAbout(!showResultsAbout);
     }
 
-    const onClickMain = function () {
-        setShowResultsContact(false);
-        setShowResultsWork(false);
-        setShowResultsAbout(false);
-    }
+    // const onClickMain = function () {
+    //     setShowResultsContact(false);
+    //     setShowResultsWork(false);
+    //     setShowResultsAbout(false);
+    // }
 
 
     return (
@@ -62,18 +62,18 @@ export default function NewTemplate() {
                                 Contact
                             </a>
                         </li>
-                        <li><a
+                        {/* <li><a
                             onClick={onClickWork} >
                             Work
                         </a>
                         </li>
-                        <li><a onClick={onClickAbout} >About</a></li>
+                        <li><a onClick={onClickAbout} >About</a></li> */}
                     </ul>
                 </nav>
             </header>
 
             {/* Main */}
-            <div id="main" onClick={onClickMain}>
+            <div id="main">
 
                 {/* Contact  */}
                 {showResultsContact ? <ContactModal /> : null}
